@@ -23,6 +23,10 @@ Detallar con mayor profundidad.
 
 ## Parte 1 - Progreso
 
+Directorio/Paquete:
+
+https://github.com/Araya2001/ucenfotec-arqui-proyecto/tree/main/parte-1
+
 Imagenes:
 
 `Circuito A:`
