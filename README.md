@@ -95,7 +95,78 @@ Link de video de programa en ejecución en Google Drive:
 
 https://drive.google.com/file/d/18BCRlDZ0p8rNhnq6s1rvZccR7Natf6Ey/view?usp=sharing
 
-## Bonus
+## Adicional
 
-### Código del programa realizado en ensamblador en C
+### Código del programa realizado en C
+
+Paquete/Directorio:
+
+https://github.com/Araya2001/ucenfotec-arqui-proyecto/tree/main/resta
+
+Instalación y/o Compilcación:
+
+```
+$ git clone https://github.com/Araya2001/ucenfotec-arqui-proyecto.git
+$ cd ucenfotec-arqui-proyecto/resta/target
+$ cmake .
+$ make
+$ cd bin
+$ ./resta --help
+Usage: resta [OPTION...] 
+resta -- programa que toma 2 números como entrada y retorna la sustracción de
+estos.
+
+  -x, --num1= [INT]          Número 1
+  -y, --num2= [INT]          Número 2
+  -?, --help                 Give this help list
+      --usage                Give a short usage message
+  -V, --version              Print program version
+
+Mandatory or optional arguments to long options are also mandatory or optional
+for any corresponding short options.
+
+Report bugs to <araya2001@outlook.es>.
+```
+
+Opcional, Agregar al entorno de variables
+
+> NOTA: No usar el path que se usará como ejemplo, consultar primero la ubicación con `pwd`
+
+```
+$ cd ucenfotec-arqui-proyecto/resta/target/bin
+$ pwd
+/home/aaj/aaj_stuff/UNIVERSIDAD/2021-3/ARQUI/ucenfotec-arqui-proyecto/resta/target/bin
+$ export PATH="$PATH:$(pwd)"
+$ echo $PATH
+```
+
+Ahora el binario generado del programa de resta, puede ser utilizado en cualquier ubicación o directorio. Siempre y cuando se mantenga la misma sesión en la terminal
+
+```
+$ cd ~; resta --help
+Usage: resta [OPTION...] 
+resta -- programa que toma 2 números como entrada y retorna la sustracción de
+estos.
+
+  -x, --num1= [INT]          Número 1
+  -y, --num2= [INT]          Número 2
+  -?, --help                 Give this help list
+      --usage                Give a short usage message
+  -V, --version              Print program version
+
+Mandatory or optional arguments to long options are also mandatory or optional
+for any corresponding short options.
+
+Report bugs to <araya2001@outlook.es>.
+```
+
+Uso
+
+```
+$ resta -x 4 -y 6
+Resta con dos opciones: 
+-> Número 1: 4
+-> Número 2: 6
+-> Resultado: -2
+```
 
