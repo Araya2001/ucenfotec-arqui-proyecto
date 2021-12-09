@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/resta.dir/home/aaj/aaj_git/resta/src/main.c.o -o bin/resta 

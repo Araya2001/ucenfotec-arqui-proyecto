@@ -1,3 +1,0 @@
-/home/aaj/aaj_git/resta/target/CMakeFiles/resta.dir
-/home/aaj/aaj_git/resta/target/CMakeFiles/edit_cache.dir
-/home/aaj/aaj_git/resta/target/CMakeFiles/rebuild_cache.dir
