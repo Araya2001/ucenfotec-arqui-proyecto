@@ -10,7 +10,6 @@ Lista de progreso:
 
 - [x] Parte 1 - Circuito
 - [x] Parte 2 - Ensamblador
-- [ ] Agregar Proyecto con lista de tareas terminadas.
 
 ## Herramientas en uso
 
