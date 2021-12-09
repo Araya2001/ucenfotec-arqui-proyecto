@@ -90,3 +90,12 @@ https://github.com/Araya2001/ucenfotec-arqui-proyecto/tree/main/parte-2
 Ejemplo de resta en MSX88
 
 ![Ejemplo MSX88](https://github.com/Araya2001/ucenfotec-arqui-proyecto/blob/main/parte-2/img/2021-12-09_11-57.png)
+
+Link de video de programa en ejecución en Google Drive:
+
+https://drive.google.com/file/d/18BCRlDZ0p8rNhnq6s1rvZccR7Natf6Ey/view?usp=sharing
+
+## Bonus
+
+### Código del programa realizado en ensamblador en C
+
