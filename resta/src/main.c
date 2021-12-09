@@ -6,20 +6,21 @@ const char *argp_program_bug_address = "<araya2001@outlook.es>";
 
 /* Program documentation. */
 static char doc[] =
-        "resta -- programa que toma 2 dígitos como entrada y retorna la sustracción de estos.";
+        "resta -- programa que toma 2 números como entrada y retorna la sustracción de estos.";
 
 /* A description of the arguments we accept. */
 static char args_doc[] = "";
 
 /* The options we understand. */
 static struct argp_option options[] = {
-        {"digito1", 'x', "PRIMER DÍGITO: [INT]", 0, "Dígito 1"},
-        {"digito2", 'y', "SEGUNDO DÍGITO: [INT]", 0, "Dígito 2"}};
+        {"num1", 'x', " [INT]", 0, "Número 1"},
+        {"num2", 'y', " [INT]", 0, "Número 2"},
+        {0}};
 
 /* Used by main to communicate with parse_opt. */
 struct arguments {
     char *arg[1]; /* arg1 */
-    int digito1, digito2;
+    int num1, num2;
 };
 
 /* Parse a single option. */
@@ -34,7 +35,7 @@ static error_t parse_opt(int key, char *arg, struct argp_state *state) {
     switch (key) {
         case 'x':
             if (strtol(arg, &endptr, base) != 0) {
-                arguments->digito1 = (int)strtol(arg, &endptr, base);
+                arguments->num1 = (int)strtol(arg, &endptr, base);
             } else {
                 return ARGP_ERR_UNKNOWN;
             }
@@ -42,7 +43,7 @@ static error_t parse_opt(int key, char *arg, struct argp_state *state) {
             break;
         case 'y':
             if (strtol(arg, &endptr, base) != 0) {
-                arguments->digito2 = (int)strtol(arg, &endptr, base);
+                arguments->num2 = (int)strtol(arg, &endptr, base);
             } else {
                 return ARGP_ERR_UNKNOWN;
             }
@@ -65,10 +66,10 @@ static struct argp argp = {options, parse_opt, args_doc, doc};
 
 int main(int argc, char *argv[]) {
     struct arguments arguments;
-    arguments.digito1 = 0;
-    arguments.digito2 = 0;
+    arguments.num1 = 0;
+    arguments.num2 = 0;
     argp_parse(&argp, argc, argv, 0, 0, &arguments);
-    int resta = arguments.digito1 - arguments.digito2;
-    printf("Resta con dos opciones: \n-> Número 1: %d\n-> Número 2: %d\n-> Resultado: %d\n", arguments.digito1, arguments.digito2, resta);
+    int resta = arguments.num1 - arguments.num2;
+    printf("Resta con dos opciones: \n-> Número 1: %d\n-> Número 2: %d\n-> Resultado: %d\n", arguments.num1, arguments.num2, resta);
     return 0;
 }
