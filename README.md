@@ -89,3 +89,4 @@ https://github.com/Araya2001/ucenfotec-arqui-proyecto/tree/main/parte-2
 
 Ejemplo de resta en MSX88
 
+![Ejemplo MSX88](https://github.com/Araya2001/ucenfotec-arqui-proyecto/blob/main/parte-2/img/2021-12-09_11-57.png)
