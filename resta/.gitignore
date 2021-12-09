@@ -1,6 +1,10 @@
 cmake*
 Makefile
 CMakeCache*
-target
+target/bin
+target/CMakeFiles
+target/cmake_install.cmake
+target/Makefile
+target/CMakeCache.txt
 .idea*
 CMakeFiles
