@@ -55,16 +55,3 @@ notNegative: MOV RES, DL
              JMP endCondition
 endCondition: INT 0             
 END
-;MOV BX, OFFSET NUM1
-;MOV BX, OFFSET  MSJ2
-;MOV AL, OFFSET FIN-OFFSET MSJ2
-;INT 7
-;MOV BX, OFFSET NUM2
-;INT 6
-;MOV AL, 1
-;INT 7
-;AND NUM1, 0FH
-;MOV DL, NUM1
-;INT 0
-;AND NUM2, 0FH
-;MOV DL, NUM2
