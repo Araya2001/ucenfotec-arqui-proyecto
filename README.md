@@ -102,7 +102,7 @@ Paquete/Directorio:
 
 https://github.com/Araya2001/ucenfotec-arqui-proyecto/tree/main/resta
 
-Instalación y/o Compilcación:
+Instalación y/o Compilación:
 
 ```
 $ git clone https://github.com/Araya2001/ucenfotec-arqui-proyecto.git
