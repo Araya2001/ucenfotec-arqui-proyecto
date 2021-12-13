@@ -36,6 +36,10 @@ Imagenes:
 
 ![Circuito B](https://github.com/Araya2001/ucenfotec-arqui-proyecto/blob/main/parte-1/circuito-b-avance-proyecto-arquitectura.png)
 
+Link del video de los circuitos en ejecución
+
+https://drive.google.com/file/d/1NBWjb30bJ41sQGaGHWZkmfYiIPbuIWeh/view?usp=sharing
+
 ## Parte 2
 
 ### Configuración DOSBOX
